@@ -1,0 +1,15 @@
+/* site.css */
+
+header{
+
+    background-color:lightgray;
+    border:solid 1px black ;
+    font-family:'Times New Roman','serif';
+}
+ 
+body{
+
+    font-family:Segoe UI,Arial, Helvetica, sans-serif;
+    font-size:14px;
+
+}
