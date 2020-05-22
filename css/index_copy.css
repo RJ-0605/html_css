@@ -58,37 +58,13 @@ html,body{
 }
 
 
-header nav {
-
-    /*
-     we floated the navbar to fill the next empty space at the right so the up and coming could shift to the left "With Float we have so much" , we can do and so much location we can specify , as compared to  display: inline-block; which just fills in the available space if there is and by defualt shifts to the left , for the addition of a new element, if there is space
-    
-    */ 
-
-    float:right; 
-
-     /* this margin-right is to allow some spacing  between the navbar and its margin to the right */
-     margin-right:5px;
-
-
-}  
-
-header nav li{
-    display: inline;
-    font-size:12px;
-
-   
-}
-
-
 
 /* <this is a class for specifically for shaping the image in the header with this class*/
-
 .bordered-image{
 
     
          
-   /* margin:5px ; */
+    margin:5px auto;
     border: solid 1px #444;
     border-radius:5px ;
      
@@ -100,7 +76,6 @@ header nav li{
 #main{
     border:solid 1px #ccc  ;
  /* the distance between the border of our current element which is section and other elements in terms of their borders */
-
     margin: 5px 10px 5px 8px;
     /*format for margin space distrib : top ;right ;bottom;left ;*/
     /* for the margin we can specify the space on each side of the border that should be given to space the border from the other elements . To do that we can use divide the space into a ratio , this is how css arranges it   like the example above its in a clockwise or order 
@@ -115,7 +90,7 @@ header nav li{
     Remmember "padding"  also the same format but just that its for the interior aspect between the items inside and the inner part of the border 
      */
 
-    padding:5px;
+     padding:5px;
 
      /* works like in same format  that of the margin except that  this is for the interior aspect */
 
@@ -151,27 +126,6 @@ if we want to generalise for all labels whin and without the form we have to do 
 */
 
 
-/* this is the shifted div of id="results */
- 
-#results{
-
-    padding:2px; 
-    width:600px;
-    /* we use this command here to enable the shifting  of the div with id= 'results' */
-    display: inline-block;
-
-    /* because of the shifting we did we caused the vertical align is not enabled as should have happened  by default so we have to enable it by running the command below */
-    vertical-align: top;
-
-
-}
-
-
-
-
-
-
-
 /*we can see over here simple-form class which is called in the form ".simple-form", as classes use "." a dot in front of them to call them .  is doing what a form "id" would have done 
  */
 
@@ -180,9 +134,7 @@ if we want to generalise for all labels whin and without the form we have to do 
 .simple-form {
     padding:5px;
     width:300px;
-    display: inline-block;
-    /* we use this command here to enable the shifting  of the div with id= 'results' */
-    
+
 }
 
 .simple-form label{
@@ -245,21 +197,21 @@ the main select is for the dropdown */
 }
 
 
-
- /* 
- 
- .floating_image{
+.floating_image{
     margin:auto;
     position:absolute;
     top:100px;
     bottom:100px;
     left:100px;
     right:100px;
+    
+
 }
 
- */
 
+|#results{
+    
+    padding:2px; 
+    width:600px;
 
-
-
-
+}

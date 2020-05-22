@@ -1,0 +1,63 @@
+/* site.css */
+
+
+
+
+body{
+    
+    font-family:Segoe UI,Arial, Helvetica, sans-serif;
+    font-size:14px;
+    height:500px;
+    width:500px;
+    background-image: url("../images/binary12.jpg");
+
+    background-color:transparent;
+
+
+}
+
+
+
+ 
+
+.simple-form {
+    padding:5px;
+    width:300px;
+    position:absolute;
+    top:300px;
+    bottom:250px;
+    left:550px;
+    right:300px;
+    color: rgb(231, 108, 6);
+
+}
+
+.simple-form label{
+    font-weight: bold;
+    color: rgb(231, 108, 6); 
+
+
+}
+
+
+
+
+.simple-form input[type=text]
+{
+    width:150px;
+    border-radius:3px;
+}
+
+
+/* this config is for the submit button */
+.simple-form input[type=submit] {
+    background-color: rgb(189, 90, 8);
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 5px;
+
+
+}
+
+
