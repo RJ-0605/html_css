@@ -1,5 +1,23 @@
 /* site.css */
 
+
+
+
+
+body{
+    background-color: blue;
+    font-family:Segoe UI,Arial, Helvetica, sans-serif;
+    font-size:14px;
+
+
+}
+
+
+html,body{
+    padding:0;
+    margin:0;
+}
+
 header,footer {
 
     
@@ -29,23 +47,6 @@ footer{
 
 
 }
-
-
-
-body{
-    background-color: blue;
-    font-family:Segoe UI,Arial, Helvetica, sans-serif;
-    font-size:14px;
-
-
-}
-
-
-html,body{
-    padding:0;
-    margin:0;
-}
-
 
 /* this is serves as a general wrap over header ,footer and section and whatever is contained within, NB the container is the body but it is in the body  */
 .container {

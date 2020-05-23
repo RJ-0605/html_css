@@ -14,14 +14,18 @@ def add_anytag():
             m = infile.readline()
             z=len(m)
             while z>0  :
-                m="<p>"+ m + "</p>" + "\n"
 
-                print (m, file = outfile)
                 print (m)
+
+                m="<p>"+ m + "</p>" + "\n"
+            
+                print (m, file = outfile)
+                
                 m=infile.readline()
                 z=len(m)
 
-    print ("please your file is ready , do  locate your file as outputfile.txt")
+    print (" \n")
+    print ("Please your file is ready , do  locate your file as outputfile.txt")
 
 
 
