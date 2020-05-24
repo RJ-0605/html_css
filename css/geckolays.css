@@ -1,0 +1,145 @@
+
+body{
+ 
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(144, 144, 143, 0.5)),
+                                     url("../images/gecko.png");
+                    
+    
+
+
+}
+
+
+header{
+
+    margin-top:70px;
+    height:150px;    
+}
+
+
+
+
+.companylogo{
+
+    float:left;
+    margin-top:60px;
+    margin-left:280px;
+    color:whitesmoke;
+    font-family: cursive;
+}
+
+
+header nav {
+
+    float:left;
+    margin-left:180px;
+    margin-top: 80px;
+    
+}
+
+header nav li{
+    display: inline;
+    font-size:12px;
+
+    margin:20px;
+    
+
+   
+}
+
+
+
+header nav  a {
+    
+    
+    text-decoration: none;
+    color :rgb(255, 60, 0);
+
+
+}
+
+header nav a:hover{
+
+    text-decoration:underline;
+    color:yellow;
+}
+
+
+
+.clearfloataftaheader{
+    clear: left;
+}
+
+
+
+.wrap{
+
+    width: 800px; 
+    margin:20px auto;
+    background-color: transparent;
+ /*this will be  the distance  of the top of the section to the .container wrapper */ 
+    padding:5px ;
+    color:white;
+
+}
+
+
+
+
+
+
+.image1stsection{
+    width:800px;
+    margin:20px auto;
+    color:white;
+   
+}
+
+.clearfloataftaimages{
+    clear:left;
+    
+}
+
+.afterimage{
+
+    
+    width:800px;
+    margin:20px auto;
+    color:white;
+   
+}
+
+
+.floatfirstimages{
+    
+    float:left;
+    text-align: center;
+}
+
+
+#first_rowpics{
+    margin:20px;
+    width: 200px;
+}
+
+
+
+
+
+footer{
+
+    
+    width:400px;
+    margin:80px auto 15px auto;
+    padding-top:40px ;
+    color :rgb(255, 60, 0);
+    font-size: medium;
+    text-align: center;
+
+    
+   
+
+}
+
+
+

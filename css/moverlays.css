@@ -76,13 +76,29 @@ header nav a:hover{
 }
 
 
+.image1stsection{
+    margin-top:30px;
+    
+}
+
+#first_rowpics{
+    margin:20px;
+    width: 220px;
+    
+
+}
+
+
+
 footer{
 
-    width:200px;
+    width:600px;
     margin:15px auto;
     color :rgb(255, 60, 0);
     font-size: medium;
+    text-align: center;
     
+   
 
 }
 
