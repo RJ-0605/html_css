@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="UTF-8">
+    <title>Github Hub </title>
+
+
+
+
+     
+    
+   <link  type="text/css" rel="stylesheet" href="css/indexjqry.css" />  
+    
+    
+
+
+
+    </head>
+
+<body>
+ 
+ <!--this div wht class container was created to contain the body to be able center it and assign most features as ,padding margin boder and the rest to it, with the aid of the css -->
+    <div class="container" >
+
+            <header>
+
+                <nav>
+
+                    <ul>
+                        <li><a href ="/index.html" >Home</a></li>
+                        <li><a href="/contact.html">Contacts</a></li>
+                        <li><a href="/About.html">About</a></li>
+                        <li><a href="logintest.html">Login</a></li>
+                    </ul>
+
+                </nav>
+
+                <!--an image will come into this div below whenever i want -->
+
+                <div>    <img src="images/gitg.png" class="bordered-image" />   
+                    </div>
+
+                <div>This is a site to search Git hub for interesting project</div>
+
+
+
+
+            </header>
+
+            <section id="main" >
+                <p>In this  <em>sample site </em>  we'll show a list of  <a href="http://github.com">Github</a>
+                    projects<span>and the data </span> about  <strong> those projects</strong>
+                </p>
+
+
+               <!--  
+                   <img src="images/tech.png" class="floating_image">
+
+                    -->
+
+                <form action="http://wilder.azurewebsites.net/echo"    class="bordered-image simple-form" id="gitHubSearchForm">
+                    
+                    <label for="searchphrase">Search Phrase: </label>
+                    <input type="text" name ="searchphrase"  id="searchphRase"/>  <br/>
+                    <label for ="UZstars">Use Stars?</label>
+                    <input type ="checkbox" name="useStars" checked="true" id="UZstars" />Please untick to change the defualt ,if not applicable   <br/>
+                
+                    <!--we can write whatever text we want in a form just like that with or without the surrounding tags and space out or even a an essay for a blog-->
+
+                Greetings:</br>
+
+                <label for="Langchoiz">Language</label>
+                    <select name="langChoice" id="Langchoiz">
+
+                        <option selected>ALL</option>
+                        <option >Javascript</option>
+                        <option>C#</option>
+                        <option>java</option>
+                        <option>Ruby</option>
+                        
+
+                    </select> </br> 
+
+                    </br>
+
+                    <input type ="submit" value ="search" />
+
+                
+                </form>
+
+
+                    <div id="results" class="bordered-image">
+
+                        <button  id="toggleButton">Hide</button>
+
+                       <div id="resultlist"> This will be a lasting result
+
+                            </div>
+                    <div>
+
+
+                
+            </section>
+
+            <footer>
+                &copy;2014 Rodney Kwao Llc
+            </footer>
+
+
+       <!--     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+        -->
+
+            <script type="text/javascript" src="js/jquery-3.5.1.min.js"> </script>
+
+            <script type="text/javascript" src="js/indexjqry.js"></script>
+
+      
+    
+</body>
+
+
+</html>
+
+
